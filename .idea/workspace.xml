@@ -46,7 +46,25 @@
       <recent name="D:\testautomation\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LoginTest.testLogin (1)">
+    <configuration name="LoginTest.testLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="test-automation-using-selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.logintests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base.logintests" />
+      <option name="MAIN_CLASS_NAME" value="base.logintests.LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testautomation" />
       <extension name="coverage">
@@ -67,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.testLogin (1)" />
         <item itemvalue="TestNG.LoginTest.testLogin" />
       </list>
     </recent_temporary>
