@@ -26,6 +26,16 @@ public class HomePage {
         return new HoversPage(driver);
     }
 
+    public AdditionalKeysPage clickKeyPresses() {
+        clickOnLink("Key Presses");
+        return new AdditionalKeysPage(driver);
+    }
+
+    public AdditionalKeysPage clickOnHorizontalSlider() {
+        clickOnLink("Horizontal Slider");
+        return new AdditionalKeysPage(driver);
+    }
+
     /**
      * When we create another link for each page, we'll need to create another method.
      * However, if there were (eg. 45) links when we ran that test to see how many links there were.
