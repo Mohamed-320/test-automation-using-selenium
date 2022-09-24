@@ -23,5 +23,6 @@ public class FramesTest extends BaseTest {
         wysiwygEditorPage.setTextArea(text2);
         softAssert.assertEquals(wysiwygEditorPage.getTextFromEditor(), text1 + text2,
                 "Text from editor is incorrect");
+        softAssert.assertAll();
     }
 }
