@@ -36,6 +36,11 @@ public class HomePage {
         return new AdditionalKeysPage(driver);
     }
 
+    public AlertsPage clickOnAlertsPage() {
+        clickOnLink("JavaScript Alerts");
+        return new AlertsPage(driver);
+    }
+
     /**
      * When we create another link for each page, we'll need to create another method.
      * However, if there were (eg. 45) links when we ran that test to see how many links there were.
