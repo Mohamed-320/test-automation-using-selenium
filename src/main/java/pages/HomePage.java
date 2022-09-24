@@ -41,6 +41,11 @@ public class HomePage {
         return new AlertsPage(driver);
     }
 
+    public FileUploadPage clickOnFileUpload() {
+        clickOnLink("File Upload");
+        return new FileUploadPage(driver);
+    }
+
     /**
      * When we create another link for each page, we'll need to create another method.
      * However, if there were (eg. 45) links when we ran that test to see how many links there were.
