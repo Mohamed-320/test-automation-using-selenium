@@ -12,16 +12,19 @@ import pages.HomePage;
 import utils.WindowManager;
 
 import java.io.File;
-import java.nio.file.Files;
 
 public class BaseTest {
     private WebDriver driver;
+    //    private EventFiringWebDriver driver;
     protected HomePage homePage;
 
     @BeforeClass
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
+//        driver = new EventFiringWebDriver(new ChromeDriver());
+//        driver.register(new EventReporter());
+
         driver.get("https://the-internet.herokuapp.com/");
         // eg. for window maximization
         driver.manage().window().maximize();
