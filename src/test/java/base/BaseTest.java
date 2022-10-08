@@ -81,7 +81,6 @@ public class BaseTest {
                 .build();
         driver.manage().addCookie(cookie);
     }
-
     public CookieManager getCookieManager() {
         return new CookieManager(driver);
     }
