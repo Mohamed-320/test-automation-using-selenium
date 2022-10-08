@@ -29,8 +29,7 @@ public class DynamicLoadingFirstExamplePage {
                 .withTimeout(Duration.ofSeconds(5))
                 .pollingEvery(Duration.ofSeconds(1))
                 .ignoring(NoSuchElementException.class);
-        fluentWait.until(ExpectedConditions.invisibilityOf(
-                driver.findElement(loadingIndicator)));
+        fluentWait.until(ExpectedConditions.invisibilityOf(driver.findElement(loadingIndicator)));
 */
     }
 
